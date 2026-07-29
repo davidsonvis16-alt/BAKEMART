@@ -1,0 +1,6 @@
+{
+  "name": "BakeMart Coffee House",
+  "description": "Casual-premium open-kitchen coffee house in Nakuru City, Kenya - Beyond Sweetness",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
