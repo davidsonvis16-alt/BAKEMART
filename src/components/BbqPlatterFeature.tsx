@@ -58,7 +58,7 @@ export const BbqPlatterFeature: React.FC = () => {
                       <h3 className="font-serif-display font-bold text-xl text-[#F2E8D5]">
                         {bbq1.name}
                       </h3>
-                      <span className="text-xs text-[#9CB080] font-semibold flex items-center gap-1 mt-1">
+                      <span className="text-xs text-[#E8B4A0] font-semibold flex items-center gap-1 mt-1">
                         <CheckCircle2 className="w-3.5 h-3.5" /> Serves 2 People
                       </span>
                     </div>

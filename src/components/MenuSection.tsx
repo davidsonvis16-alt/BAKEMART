@@ -146,8 +146,8 @@ export const MenuSection: React.FC = () => {
               onClick={() => setActiveFilterTag('lowcarb')}
               className={`px-3.5 py-1.5 rounded-full transition-colors flex items-center gap-1.5 ${
                 activeFilterTag === 'lowcarb'
-                  ? 'bg-[#4E5C3B] text-[#F2E8D5]'
-                  : 'bg-white border border-[#2B1B12]/15 text-[#4E5C3B] hover:bg-[#4E5C3B]/10'
+                  ? 'bg-[#8B3A2B] text-[#F2E8D5]'
+                  : 'bg-white border border-[#2B1B12]/15 text-[#8B3A2B] hover:bg-[#8B3A2B]/10'
               }`}
             >
               <Leaf className="w-3.5 h-3.5" />
@@ -312,7 +312,7 @@ export const MenuSection: React.FC = () => {
                                             : item.badge === 'Chef Special'
                                             ? 'bg-amber-800/15 text-amber-900'
                                             : item.badge === 'Low Carb' || item.badge === 'Healthy'
-                                            ? 'bg-[#4E5C3B]/20 text-[#4E5C3B]'
+                                            ? 'bg-[#8B3A2B]/20 text-[#8B3A2B]'
                                             : 'bg-[#2B1B12]/10 text-[#2B1B12]'
                                         }`}
                                       >
@@ -372,7 +372,7 @@ export const MenuSection: React.FC = () => {
                               onClick={() => handleAddToCart(item)}
                               className={`px-3.5 py-1.5 rounded-full text-xs font-bold font-mono flex items-center gap-1.5 transition-all shadow-xs active:scale-95 ${
                                 qtyInCart > 0
-                                  ? 'bg-[#4E5C3B] text-[#F2E8D5] hover:bg-[#5C6D46]'
+                                  ? 'bg-[#8B3A2B] text-[#F2E8D5] hover:bg-[#6E2E23]'
                                   : 'bg-[#58241B] text-[#F2E8D5] hover:bg-[#6E2E23]'
                               }`}
                             >

@@ -147,9 +147,9 @@ export const Header: React.FC = () => {
               href="https://wa.me/254752114450"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-2.5 bg-[#4E5C3B] text-[#F2E8D5] font-bold rounded-lg mt-2"
+              className="flex items-center justify-center gap-2 w-full py-2.5 bg-[#8B3A2B] text-[#F2E8D5] font-bold rounded-lg mt-2"
             >
-              <MessageSquare className="w-4 h-4 text-[#25D366]" />
+              <MessageSquare className="w-4 h-4 text-[#8B3A2B]" />
               WhatsApp Direct Order (0752 114450)
             </a>
           </div>

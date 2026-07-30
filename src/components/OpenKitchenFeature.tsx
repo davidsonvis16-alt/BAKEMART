@@ -55,7 +55,7 @@ export const OpenKitchenFeature: React.FC = () => {
             </div>
 
             <div className="bg-white p-5 rounded-2xl border border-[#2B1B12]/10 shadow-xs flex items-start gap-4">
-              <div className="p-3 bg-[#4E5C3B]/20 text-[#4E5C3B] rounded-xl shrink-0">
+              <div className="p-3 bg-[#8B3A2B]/20 text-[#8B3A2B] rounded-xl shrink-0">
                 <Coffee className="w-6 h-6" />
               </div>
               <div>

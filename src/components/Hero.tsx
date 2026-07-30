@@ -84,9 +84,9 @@ export const Hero: React.FC = () => {
               href="https://wa.me/254752114450"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#6B7A4F] hover:bg-[#6B7A4F]/90 text-white font-bold px-6 py-4 rounded-full text-base flex items-center gap-2 shadow-lg transition-all hover:scale-105"
+              className="bg-[#8B3A2B] hover:bg-[#8B3A2B]/90 text-white font-bold px-6 py-4 rounded-full text-base flex items-center gap-2 shadow-lg transition-all hover:scale-105"
             >
-              <MessageCircle className="w-5 h-5 text-[#25D366]" />
+              <MessageCircle className="w-5 h-5 text-[#8B3A2B]" />
               <span>WhatsApp Us</span>
             </a>
           </div>
@@ -98,7 +98,7 @@ export const Hero: React.FC = () => {
               <span>Tropical House, Watalii Rd, Nakuru</span>
             </div>
             <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4 text-[#6B7A4F] shrink-0" />
+              <Clock className="w-4 h-4 text-[#8B3A2B] shrink-0" />
               <span>Open Daily until 8:00 PM</span>
             </div>
             <div className="col-span-2 sm:col-span-1 flex items-center gap-2">
@@ -118,7 +118,7 @@ export const Hero: React.FC = () => {
           </div>
           <span className="text-[#2B1B12]/20">•</span>
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-[#6B7A4F]"></span>
+            <span className="w-2 h-2 rounded-full bg-[#8B3A2B]"></span>
             <span>Authentic Wood-Fired Style Pizza</span>
           </div>
           <span className="text-[#2B1B12]/20">•</span>

@@ -43,18 +43,18 @@ export const Footer: React.FC = () => {
               <span>Tropical House, Watalii Rd, Nakuru City, Kenya</span>
             </li>
             <li className="flex items-center gap-2.5">
-              <Phone className="w-4 h-4 text-[#7A8B5A] shrink-0" />
+              <Phone className="w-4 h-4 text-[#E8B4A0] shrink-0" />
               <a href="tel:0752114450" className="hover:text-white transition-colors">
                 0752 114450
               </a>
             </li>
             <li className="flex items-center gap-2.5">
-              <MessageSquare className="w-4 h-4 text-[#25D366] shrink-0" />
+              <MessageSquare className="w-4 h-4 text-[#8B3A2B] shrink-0" />
               <a
                 href="https://wa.me/254752114450"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-white underline font-semibold text-[#7A8B5A]"
+                className="hover:text-white underline font-semibold text-[#E8B4A0]"
               >
                 WhatsApp Direct: 0752 114450
               </a>
@@ -110,9 +110,9 @@ export const Footer: React.FC = () => {
               <ExternalLink className="w-3 h-3 ml-auto opacity-50" />
             </a>
 
-            <div className="p-3 bg-[#7A8B5A]/15 border border-[#7A8B5A]/30 rounded-xl text-xs text-[#F2E8D5]/90 flex items-center justify-between">
+            <div className="p-3 bg-[#E8B4A0]/15 border border-[#E8B4A0]/30 rounded-xl text-xs text-[#F2E8D5]/90 flex items-center justify-between">
               <span>Also listed on <strong>Glovo Kenya</strong></span>
-              <span className="bg-[#7A8B5A] text-[#2B1B12] text-[10px] font-bold px-2 py-0.5 rounded">
+              <span className="bg-[#E8B4A0] text-[#2B1B12] text-[10px] font-bold px-2 py-0.5 rounded">
                 Delivery
               </span>
             </div>

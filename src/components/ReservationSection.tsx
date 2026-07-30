@@ -57,7 +57,7 @@ export const ReservationSection: React.FC = () => {
         <div className="bg-[#140B06] p-6 sm:p-10 rounded-3xl border border-[#58241B]/40 shadow-2xl relative">
           {submitted ? (
             <div className="text-center py-10 space-y-4">
-              <div className="w-16 h-16 rounded-full bg-[#4E5C3B]/20 text-[#9CB080] flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 rounded-full bg-[#8B3A2B]/20 text-[#E8B4A0] flex items-center justify-center mx-auto">
                 <CheckCircle className="w-10 h-10" />
               </div>
               <h3 className="font-serif-display font-bold text-2xl text-[#F2E8D5]">
@@ -195,12 +195,12 @@ export const ReservationSection: React.FC = () => {
                 type="submit"
                 className="w-full bg-[#58241B] hover:bg-[#6E2E23] text-[#F2E8D5] font-bold py-4 rounded-xl flex items-center justify-center gap-2 text-base shadow-xl border border-white/10 transition-all active:scale-98"
               >
-                <MessageSquare className="w-5 h-5 text-[#25D366]" />
+                <MessageSquare className="w-5 h-5 text-[#8B3A2B]" />
                 <span>Submit Reservation via WhatsApp (0752 114450)</span>
               </button>
 
               <div className="flex items-center justify-center gap-2 text-xs text-[#F2E8D5]/70 text-center">
-                <MapPin className="w-3.5 h-3.5 text-[#9CB080]" />
+                <MapPin className="w-3.5 h-3.5 text-[#E8B4A0]" />
                 <span>BakeMart Coffee House · Tropical House, Watalii Rd, Nakuru City</span>
               </div>
             </form>
