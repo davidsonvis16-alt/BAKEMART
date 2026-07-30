@@ -195,7 +195,7 @@ export const ReservationSection: React.FC = () => {
                 type="submit"
                 className="w-full bg-[#58241B] hover:bg-[#6E2E23] text-[#F2E8D5] font-bold py-4 rounded-xl flex items-center justify-center gap-2 text-base shadow-xl border border-white/10 transition-all active:scale-98"
               >
-                <MessageSquare className="w-5 h-5 text-[#F2E8D5]" />
+                <MessageSquare className="w-5 h-5 text-[#25D366]" />
                 <span>Submit Reservation via WhatsApp (0752 114450)</span>
               </button>
 

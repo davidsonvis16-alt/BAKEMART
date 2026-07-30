@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
               </a>
             </li>
             <li className="flex items-center gap-2.5">
-              <MessageSquare className="w-4 h-4 text-[#7A8B5A] shrink-0" />
+              <MessageSquare className="w-4 h-4 text-[#25D366] shrink-0" />
               <a
                 href="https://wa.me/254752114450"
                 target="_blank"

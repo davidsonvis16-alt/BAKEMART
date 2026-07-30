@@ -271,7 +271,7 @@ export const CartDrawer: React.FC = () => {
                 onClick={handleCheckout}
                 className="w-full bg-[#4E5C3B] hover:bg-[#5C6D46] text-[#F2E8D5] font-bold py-4 px-4 rounded-xl flex items-center justify-center gap-2 text-base shadow-xl border border-white/10 transition-transform active:scale-98"
               >
-                <MessageSquare className="w-5 h-5" />
+                <MessageSquare className="w-5 h-5 text-[#25D366]" />
                 <span>Send Order via WhatsApp (0752 114450)</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
