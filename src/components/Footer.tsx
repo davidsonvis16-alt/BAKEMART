@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Clock, MessageSquare, Instagram, Facebook, Utensils, Star, ExternalLink } from 'lucide-react';
+import logo4 from '../assets/images/logo4.jpg';
 
 export const Footer: React.FC = () => {
   return (
@@ -8,9 +9,11 @@ export const Footer: React.FC = () => {
         {/* Brand Info */}
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-[#8B3A2B] border-2 border-[#E8B4A0] flex items-center justify-center text-white">
-              <Utensils className="w-5 h-5 text-[#F2E8D5]" />
-            </div>
+            <img
+              src={logo4}
+              alt="BakeMart Coffee House"
+              className="w-12 h-12 rounded-full object-cover shadow-md"
+            />
             <div>
               <span className="font-serif-display font-bold text-2xl text-[#F2E8D5] block leading-none">
                 BakeMart
